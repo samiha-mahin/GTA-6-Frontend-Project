@@ -38,7 +38,7 @@ const App = () => {
       delay: "-1",
       ease: "Expo.easeInOut",
     });
-    
+
     gsap.to(".sky", {
       scale: 1.1,
       rotate: 0,
@@ -48,7 +48,7 @@ const App = () => {
     });
 
     gsap.to(".bg", {
-      scale: 1.1,
+      scale: 1.2,
       rotate: 0,
       duration: 2,
       delay: "-.8",
