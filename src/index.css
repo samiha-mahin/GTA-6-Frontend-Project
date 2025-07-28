@@ -4,7 +4,9 @@
   font-family: "pricedown";
   src: url("./pricedown.otf");
 }
-
+*::-webkit-scrollbar {
+  display: none;
+}
 html,
 body {
   width: 100%;
